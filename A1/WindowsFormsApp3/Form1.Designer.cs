@@ -42,7 +42,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.lblClassTitle = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblCrTitle6 = new System.Windows.Forms.Label();
             this.txtCr6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -164,14 +164,14 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label6
+            // lblCrTitle6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(302, 259);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "label5";
+            this.lblCrTitle6.AutoSize = true;
+            this.lblCrTitle6.Location = new System.Drawing.Point(302, 259);
+            this.lblCrTitle6.Name = "lblCrTitle6";
+            this.lblCrTitle6.Size = new System.Drawing.Size(35, 13);
+            this.lblCrTitle6.TabIndex = 15;
+            this.lblCrTitle6.Text = "label5";
             // 
             // txtCr6
             // 
@@ -185,7 +185,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblCrTitle6);
             this.Controls.Add(this.txtCr6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblClassTitle);
@@ -224,7 +224,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblClassTitle;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblCrTitle6;
         private System.Windows.Forms.TextBox txtCr6;
     }
 }
